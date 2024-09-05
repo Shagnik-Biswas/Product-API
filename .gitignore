@@ -1,0 +1,23 @@
+# Ignore virtual environments
+.env
+.venv
+env/
+venv/
+pienv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore Django migration files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore Django specific files
+*.log
+local_settings.py
+db.sqlite3
+
+# Ignore other unwanted files
+*.pot
